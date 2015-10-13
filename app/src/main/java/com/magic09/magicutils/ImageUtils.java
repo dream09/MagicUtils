@@ -1,13 +1,6 @@
 package com.magic09.magicutils;
 
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.net.URL;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +11,13 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.URL;
 
 /**
  * Method provides several static methods for image decoding. 
@@ -102,7 +102,9 @@ public class ImageUtils {
 	/**
 	 * Method returns a decoded bitmap from the argument url at the appropriate size
 	 * for the arguments reqWidth and reqHeight.
-	 * @param inputStream
+	 * @param url
+	 * @param reqWidth
+	 * @param reqHeight
 	 * @return
 	 */
 	public static Bitmap decodeSampledBitmapFromUrl(String url, int reqWidth, int reqHeight) {

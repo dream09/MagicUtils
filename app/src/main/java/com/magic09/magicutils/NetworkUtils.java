@@ -1,12 +1,13 @@
 package com.magic09.magicutils;
 
 
-import java.net.MalformedURLException;
-import java.net.UnknownHostException;
-
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+
+import java.net.MalformedURLException;
+import java.net.UnknownHostException;
+
 import jcifs.UniAddress;
 import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbAuthException;
@@ -96,7 +97,7 @@ public class NetworkUtils {
 	/**
 	 * Method tests the login details provided and returns true if login
 	 * successful otherwise false.
-	 * @param ipaddress
+	 * @param smbaddress
 	 * @param user
 	 * @param pass
 	 * @return

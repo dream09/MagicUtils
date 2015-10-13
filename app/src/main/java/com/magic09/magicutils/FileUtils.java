@@ -167,8 +167,7 @@ public class FileUtils {
 	 */
 	public static String getMimeTypeFromExtension(String extension) {
 		MimeTypeMap mimeTypeMap = MimeTypeMap.getSingleton();
-		String result = mimeTypeMap.getMimeTypeFromExtension(extension);
-		return result;
+		return mimeTypeMap.getMimeTypeFromExtension(extension);
 	}
 	
 }

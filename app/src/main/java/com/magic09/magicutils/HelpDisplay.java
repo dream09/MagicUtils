@@ -48,7 +48,7 @@ public class HelpDisplay {
 	 * Helper method to display a ShowcaseView for the view item
 	 * specified in the argument viewTargetId.
 	 * @param activity
-	 * @param actionTargetId
+	 * @param viewTargetId
 	 * @param title
 	 * @param text
 	 */
