@@ -1,6 +1,5 @@
 package com.magic09.magicutils;
 
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -11,10 +10,12 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
+
+
 /**
  * BooleanDialogFragment provides a DialogFragment with a positive/negative dialog
  * that returns the result via an interface.
- * @author magic09
+ * @author dream09
  *
  */
 public class BooleanDialogFragment extends DialogFragment {
@@ -38,7 +39,7 @@ public class BooleanDialogFragment extends DialogFragment {
 	
 	/**
 	 * Interface to pass data back.
-	 * @author magic09
+	 * @author dream09
 	 *
 	 */
 	public interface BooleanDialogFragmentListener {
@@ -71,7 +72,7 @@ public class BooleanDialogFragment extends DialogFragment {
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
 		
-		// Ensure container has implemented the interface.
+		// Ensure container has implemented the interface
 		try {
 			dialogListener = (BooleanDialogFragmentListener) activity;
 		} catch (ClassCastException e) {

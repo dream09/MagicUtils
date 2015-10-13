@@ -20,7 +20,7 @@ import jcifs.smb.SmbFile;
 
 /**
  * FileUtils provides several static methods for file operations. 
- * @author magic09
+ * @author dream09
  *
  */
 public class FileUtils {

@@ -7,7 +7,7 @@ import java.util.Locale;
 
 /**
  * StringUtils provides several static methods for file operations. 
- * @author magic09
+ * @author dream09
  *
  */
 public class StringUtils {
