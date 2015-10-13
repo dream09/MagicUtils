@@ -10,10 +10,12 @@ import com.github.amlcurran.showcaseview.targets.PointTarget;
 import com.github.amlcurran.showcaseview.targets.Target;
 import com.github.amlcurran.showcaseview.targets.ViewTarget;
 
+
+
 /**
  * HelpDisplay provides static methods for displaying and clearing
  * ShowcaseViews.
- * @author magic09
+ * @author dream09
  *
  */
 public class HelpDisplay {

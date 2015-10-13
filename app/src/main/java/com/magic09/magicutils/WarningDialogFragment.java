@@ -1,6 +1,5 @@
 package com.magic09.magicutils;
 
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
@@ -9,10 +8,12 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
+
+
 /**
  * WarningDialogFragment provides a DialogFragment that presents a message to a user
  * that can only be dismissed.
- * @author magic09
+ * @author dream09
  *
  */
 public class WarningDialogFragment extends DialogFragment {

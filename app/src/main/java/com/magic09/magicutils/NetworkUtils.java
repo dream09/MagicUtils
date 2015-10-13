@@ -1,6 +1,5 @@
 package com.magic09.magicutils;
 
-
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -19,7 +18,7 @@ import jcifs.smb.SmbSession;
 
 /**
  * NetworkUtils provides several static methods for network operations. 
- * @author magic09
+ * @author dream09
  *
  */
 public class NetworkUtils {

@@ -1,6 +1,5 @@
 package com.magic09.magicutils;
 
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -19,9 +18,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
 
+
+
 /**
  * Method provides several static methods for image decoding. 
- * @author magic09
+ * @author dream09
  *
  */
 public class ImageUtils {
@@ -153,7 +154,6 @@ public class ImageUtils {
 	 * @param options
 	 * @param reqWidth
 	 * @param reqHeight
-	 * @return 
 	 * @return
 	 */
 	private static int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
